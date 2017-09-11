@@ -1,20 +1,30 @@
 $(document).ready(function(){
-	
-
-	
-    /*---------20---------*/
-    var t= true;
-    $("#t").click(function(){
-        if (t==true) {
-            
-            $("#yes").html('NO');
-            t=false;
-        }
-        else {
-            $("#yes").html('YES');
-            t=true;
-        }    
+	   
+ var j= 0;
+    $("#j").click(function(){
+        j++;
+        $("#button-47").html(j);
+        
     });
+    
+    /*---------11---------*/
+    var k= true;
+    $("#blue").click(function(){
+        $( "#red" ).animate({opacity:"0"}, 600);
+        $( "#blue" ).animate({opacity:"0"}, 600);
+        $( "#notMatrix" ).delay( 600 ).animate({opacity:".3"}, 1000);
+        
+        
+    });
+    
+    $("#red").click(function(){
+        $( "#red" ).animate({opacity:"0"}, 600);
+        $( "#blue" ).animate({opacity:"0"}, 600);
+        $( "#matrix" ).delay( 600 ).animate({opacity:".3"}, 1000);
+        
+        
+    });
+    
 	// $('#button-4').click(function() {
 	// 	$('#button-3').animate({
 	// 		opacity: 0.4,
