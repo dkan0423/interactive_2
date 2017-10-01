@@ -1,0 +1,145 @@
+/* reset padding and margins */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    height: 2500px;
+    width: 100%;
+    background-color: pink;
+    background: linear-gradient(to bottom, #33ccff 0%, #66ffcc 60%);
+    opacity:.5;
+}
+
+/* container */
+
+.container1, .container2, .container4, .container4{
+    width: 100%;
+    height: 10000px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#values {
+    position: repeat;
+    top: 20px;
+    left: 20px;
+    color: red;
+}
+
+.element {
+   
+    margin: 10px;
+    top: calc(50% - 50px);
+    left: calc(50% - 50px);
+    display: block;
+    height: 200px;
+    width: 200px;
+    -webkit-transform: rotate(20deg);
+    background-color: #00B3C5;
+    opacity:.5;
+    mix-blend-mode: multiply;
+    float: left;
+
+}
+
+.element2 {
+
+
+    display: block;
+    width: 70px;
+    height: 30px;
+    margin: 10px;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px;
+    opacity:.5;
+    background-color:#130E43;
+    background-blend-mode: overlay;
+    float: left;
+
+}
+
+
+.element3
+ {
+    width: 0;
+    height: 0;
+    display: block;
+    margin:5px;
+    border-top: 100px solid red;
+    border-right: 100px solid transparent;
+    float: left;
+}
+
+
+.element3.clicked {
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;
+    border-right: 100px solid blue;
+    border-bottom: 50px solid transparent;            
+    background-color: overlay;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    display: block;
+    float: left;
+}
+
+
+.element4 {
+    width: 100px;
+    height: 100px;
+    background: yellow;
+    background-color: overlay;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    display: block;
+    float: left;
+}
+
+.element4.clicked {
+    width: 100px;
+    height: 40px;
+    background: red;
+    background-color: overlay;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    display: block;
+    float: left;
+}
+
+.container1, .container2, .container3, .container4{
+    width: 100%;
+    height: 7000px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/*#element2 {
+    width: 30px;
+    height: 50px;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px;
+    background: blue;
+}*/
+
+
+          /*  #for div{
+                overflow: hidden;
+                width: 30px;
+                height: 30px;
+                display: inline-block;
+                font-size: 4pc;
+                -webkit-transform-origin: 0% 0%;
+                -webkit-transform: rotate(10deg);
+                background-color: blue;*/
