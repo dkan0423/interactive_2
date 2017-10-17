@@ -1,0 +1,33 @@
+body {
+	
+}
+
+.letter {
+	width: 500px;
+	height: 500px;
+	position: relative;
+	display: inline-block;
+	margin: 50px;
+}
+
+#B {
+	background: yellow;
+}
+.square {
+	height: 100px;
+	width:100px;
+	background: red;
+	position: absolute;
+}
+.top-middle { 
+	left:100px;
+	top: 0px;
+}
+
+.left-top { 
+
+	left:0px;
+	top: 100px;
+	
+}
+
