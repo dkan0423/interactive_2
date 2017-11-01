@@ -5,16 +5,640 @@
 	<title>Letterform Construction</title>
 	<meta charset="utf-8" />
 	<link rel="stylesheet" href="main.css" type="text/css" />
+	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+	<script type="text/javascript" src="script.js"></script>
 </head>
 
 <body>
 
-<div class="letter" id="B">
-	<div class="square top-middle"></div>
-	<div class="square left-top"></div>
+<div id="hide-pattern">
+</div>
+<div id="pattern">
+</div>
 
+<div class="title">
+	<div class="letter" id="D">
+
+	<div class="square left-top-d"></div>
+	<div class="square left-top-middle-d"></div>
+	<div class="square left-bottom-middle-d"></div>
+	<div class="square left-bottom-d"></div>d
+	<div class="square top-center-d"></div>
+	<div class="square right-top-d"></div>
+	<div class="square right-middle-top-d"></div>
+	<div class="square right-center-d"></div>
+	<div class="square bottom-center-d"></div>
+	<div class="square right-bottom-d"></div>
+	
+</div>
+
+<div class="letter" id="O">
+
+	<div class="square left-top-o"></div>
+	<div class="square left-middle-o"></div>
+	<div class="square left-middle-bottom-o"></div>
+	<div class="square middle-top-o"></div>
+	<div class="square middle-bottom-o"></div>
+	<div class="square right-top-o"></div>
+	<div class="square right-middle-o"></div>
+	<div class="square right-middle-bottom-o"></div>
+	
+</div>
+
+<div class="letter" id="T">
+
+	<div class="square left-top-corner-t"></div>
+	<div class="square center-top-corner-t"></div>
+	<div class="square center-middle-t"></div>
+	<div class="square center-t"></div>
+	<div class="square center-bottom-t"></div>
+	<div class="square center-bottom-corner-t"></div>
+	<div class="square right-top-corner-t"></div>
+	
+</div>
+
+<div class="letter" id="S">
+
+	<div class="square left-top-corner-s"></div>
+	<div class="square left-bottom-corner-s"></div>
+	<div class="square middle-top-corner-s"></div>
+	<div class="square middle-center-s"></div>
+	<div class="square middle-bottom-s"></div>
+	<div class="square right-top-corner-s"></div>
+	<div class="square right-bottom-s"></div>	
+</div>
+
+
+</div>
+
+<div class="container">
+
+    <div id="element">
+    </div>
+
+
+<!--alphabet-->
+
+
+
+<div class="letter" id="A">
+
+	<div class="square top pink"></div>
+	<div class="square top-middle-a pink"></div>
+	<div class="square top-left pink"></div>
+	<div class="square top-halfmiddle green"></div>
+	<div class="square top-half-right"></div>
+	<div class="square bottom-middletopleft"></div>
+	<div class="square bottom-middleleft"></div>
+	<div class="square bottom-left"></div>
+	<div class="square top-right"></div>
+	<div class="square bottom-middleright"></div>
+	<div class="square bottom-right"></div>
+</div>
+
+
+<div class="letter" id="B">
+
+	<div class="square top-middle"></div>
+	<div class="square left-top-b"></div>
+	<div class="square left-middle"></div>
+	<div class="square left-bottom"></div>
+	<div class="square right-top"></div>
+	<div class="square right-middle"></div>
+	<div class="square right-middle2"></div>
+	<div class="square right-bottom-b"></div>
+	<div class="square top-bottom"></div>
+</div>	
+
+<div class="letter" id="C">
+
+	<div class="square left-top"></div>
+	<div class="square left-top-middle"></div>
+	<div class="square left-bottom-middle"></div>
+	<div class="square top-center"></div>
+	<div class="square right-top-c"></div>
+	<div class="square bottom-center"></div>
+	<div class="square right-bottom-c"></div>
+	
+</div>
+	
+<div class="letter" id="D">
+
+	<div class="square left-top-d"></div>
+	<div class="square left-top-middle-d"></div>
+	<div class="square left-bottom-middle-d"></div>
+	<div class="square left-bottom-d"></div>d
+	<div class="square top-center-d"></div>
+	<div class="square right-top-d"></div>
+	<div class="square right-middle-top-d"></div>
+	<div class="square right-center-d"></div>
+	<div class="square bottom-center-d"></div>
+	<div class="square right-bottom-d"></div>
+	
+</div>
+
+
+
+<div class="letter" id="E">
+
+    <div class="square left-top-center"></div>
+    <div class="square left-top-center2"></div>
+	<div class="square left-top-e"></div>
+	<div class="square left-top-middle-e"></div>
+	<div class="square left-bottom-e"></div>
+	<div class="square left-lower-bottom-e"></div>
+	<div class="square right-center-e"></div>
+	<div class="square right-lower-bottom-e"></div>
+
+</div>
+
+
+<div class="letter" id="F">
+
+	<div class="square left-top-corner-f"></div>
+	<div class="square left-top-f"></div>
+	<div class="square left-center-f"></div>
+	<div class="square left-bottom-f"></div>
+	<div class="square left-centertop-f"></div>
+	<div class="square right-topcenter-f"></div>
+	<div class="square right-center-f"></div>
+
+</div>
+
+<div class="letter" id="G">
+
+	<div class="square left-top-corner-g"></div>
+	<div class="square left-top-g"></div>
+	<div class="square left-bottom-center-g"></div>
+	<div class="square right-topcenter-g"></div>
+	<div class="square right-center-g"></div>
+	<div class="square right-center-bottom-g"></div>
+	<div class="square right-bottom-g"></div>
+</div>
+
+<div class="letter" id="H">
+
+	<div class="square left-top-corner-h"></div>
+	<div class="square left-top-h"></div>
+	<div class="square left-center-h"></div>
+	<div class="square left-bottom-h"></div>
+	<div class="square left-bottom-corner-h"></div>
+	<div class="square center-h"></div>
+	<div class="square right-top-corner-h"></div>
+	<div class="square right-top-h"></div>
+	<div class="square right-center-h"></div>
+	<div class="square right-bottom-h"></div>
+	<div class="square right-bottom-corner-h"></div>
+
+</div>
+
+<div class="letter" id="I">
+
+	<div class="square top-center-i"></div>
+	<div class="square middle-center-i"></div>
+	<div class="square middle-bottom-i"></div>
+	<div class="square bottom-center-i"></div>
+	<div class="square bottom-i"></div>
+</div>
+
+<div class="letter" id="J">
+
+	<div class="square top-center-j"></div>
+	<div class="square middle-center-j"></div>
+	<div class="square middle-bottom-j"></div>
+	<div class="square bottom-center-j"></div>
+	<div class="square bottom-j"></div>
+	<div class="square left-bottom-j"></div>
+</div>
+
+<div class="letter" id="K">
+
+	<div class="square left-top-center-corner-k"></div>
+	<div class="square left-top-center-k"></div>
+	<div class="square left-center-k"></div>
+	<div class="square left-bottom-k"></div>
+	<div class="square left-bottom-corner-k"></div>
+	<div class="square center-k"></div>
+	<div class="square center-bottom-k"></div>
+	<div class="square right-top-corner-k"></div>
+	<div class="square right-bottom-corner-k"></div>
+</div>
+
+
+<div class="letter" id="L">
+
+	<div class="square left-top-center-corner-l"></div>
+	<div class="square left-top-center-l"></div>
+	<div class="square left-middle-l"></div>
+	<div class="square left-bottom-l"></div>
+	<div class="square left-bottom-corner-l"></div>
+	<div class="square left-center-l"></div>
+	<div class="square right-bottom-l"></div>
+
+</div>
+
+<div class="letter" id="M">
+
+	<div class="square left-top-center-corner-m"></div>
+	<div class="square left-top-center-m"></div>
+	<div class="square left-center-m"></div>
+	<div class="square left-bottom-m"></div>
+	<div class="square left-bottom-m"></div>
+	<div class="square left-bottom-corner-m"></div>
+	<div class="square left-middle-m"></div>
+	<div class="square middle-m"></div>
+	<div class="square right-middle-m"></div>
+	<div class="square right-top-corner-m"></div>
+	<div class="square right-top-m"></div>
+	<div class="square right-center-m"></div>
+	<div class="square right-bottom-center-m"></div>
+	<div class="square right-bottom-m"></div>
+
+	</div>
+
+<div class="letter" id="N">
+
+	<div class="square left-top-center-corner-n"></div>
+	<div class="square left-top-center-n"></div>
+	<div class="square left-center-n"></div>
+	<div class="square left-bottom-n"></div>
+	<div class="square left-bottom-corner-n"></div>
+	<div class="square left-middle-n"></div>
+	<div class="square middle-n"></div>
+	<div class="square right-top-corner-n"></div>
+	<div class="square right-middle-n"></div>
+	<div class="square right-top-n"></div>
+	<div class="square right-bottom-n"></div>
+	<div class="square right-bottom-corner-n"></div>
+	<div class="square right-middle-2"></div>
+
+	
+</div>
+
+<div class="letter" id="O">
+
+	<div class="square left-top-o"></div>
+	<div class="square left-middle-o"></div>
+	<div class="square left-middle-bottom-o"></div>
+	<div class="square middle-top-o"></div>
+	<div class="square middle-bottom-o"></div>
+	<div class="square right-top-o"></div>
+	<div class="square right-middle-o"></div>
+	<div class="square right-middle-bottom-o"></div>
+	
+</div>
+	
+
+<div class="letter" id="P">
+
+	<div class="square left-top-corner-p"></div>
+	<div class="square left-top-p"></div>
+	<div class="square left-middle-p"></div>
+	<div class="square left-bottom-p"></div>
+	<div class="square left-bottom-corner-p"></div>
+	<div class="square middle-bottom-p"></div>
+	<div class="square right-top-corner-p"></div>
+	
+</div>
+
+<div class="letter" id="Q">
+
+	<div class="square left-top-q"></div>
+	<div class="square left-middle-q"></div>
+	<div class="square left-middle-bottom-q"></div>
+	<div class="square middle-top-q"></div>
+	<div class="square middle-bottom-q"></div>
+	<div class="square right-top-q"></div>
+	<div class="square right-middle-q"></div>
+	<div class="square right-middle-bottom-q"></div>
+	<div class="square right-corner-q"></div>
+	
+</div>
+
+<div class="letter" id="R">
+
+	<div class="square left-top-corner-r"></div>
+	<div class="square left-top-r"></div>
+	<div class="square left-middle-r"></div>
+	<div class="square left-bottom-r"></div>
+	<div class="square middle-top-r"></div>
+	<div class="square middle-bottom-r"></div>
+	<div class="square right-top-corner-r"></div>
+	<div class="square right-bottom-r"></div>
+	<div class="square right-bottom-corner-r"></div>
+	
+</div>
+
+<div class="letter" id="S">
+
+	<div class="square left-top-corner-s"></div>
+	<div class="square left-bottom-corner-s"></div>
+	<div class="square middle-top-corner-s"></div>
+	<div class="square middle-center-s"></div>
+	<div class="square middle-bottom-s"></div>
+	<div class="square right-top-corner-s"></div>
+	<div class="square right-bottom-s"></div>	
+</div>
+
+	
+	
+<div class="letter" id="T">
+
+	<div class="square left-top-corner-t"></div>
+	<div class="square center-top-corner-t"></div>
+	<div class="square center-middle-t"></div>
+	<div class="square center-t"></div>
+	<div class="square center-bottom-t"></div>
+	<div class="square center-bottom-corner-t"></div>
+	<div class="square right-top-corner-t"></div>
+	
+</div>
+
+	
+<div class="letter" id="U">
+
+	<div class="square left-top-center-corner-u"></div>
+	<div class="square left-top-center-u"></div>
+	<div class="square left-center-u"></div>
+	<div class="square left-bottom-u"></div>
+	<div class="square left-center-bottom-u"></div>
+	<div class="square right-center-bottom-u"></div>
+	<div class="square right-top-center-corner-u"></div>
+	<div class="square right-top-center-u"></div>
+	<div class="square right-center-u"></div>
+	<div class="square right-bottom-u"></div>
+
+</div>
+	
+<div class="letter" id="V">
+
+	<div class="square left-top-center-corner-v"></div>
+	<div class="square left-top-center-v"></div>
+	<div class="square left-center-v"></div>
+	<div class="square left-bottom-v"></div>
+	<div class="square left-center-bottom-v"></div>
+	<div class="square right-top-center-corner-v"></div>
+	<div class="square right-top-center-v"></div>
+	<div class="square right-center-v"></div>
+	<div class="square right-bottom-v"></div>
+	
+</div>
+
+<div class="letter" id="W">
+
+	<div class="square left-top-corner-w"></div>
+	<div class="square left-top-w"></div>
+	<div class="square left-middle-w"></div>
+	<div class="square left-bottom-w"></div>
+	<div class="square left-center-w"></div>
+	<div class="square middle-w"></div>
+	<div class="square right-center-w"></div>
+	<div class="square right-top-corner-w"></div>
+	<div class="square right-top-w"></div>
+	<div class="square right-middle-w"></div>
+	<div class="square right-bottom-w"></div>
+	
+</div>
+
+<div class="letter" id="X">
+
+	<div class="square left-top-corner-x"></div>
+	<div class="square left-bottom-corner-x"></div>
+	<div class="square left-center-top-x"></div>
+	<div class="square left-center-middle-x"></div>
+	<div class="square left-center-bottom-x"></div>
+	<div class="square right-top-corner-x"></div>
+	<div class="square right-bottom-corner-x"></div>
 		
 </div>
+
+<div class="letter" id="Y">
+
+	<div class="square left-top-corner-y"></div>
+	<div class="square left-top-y"></div>
+	<div class="square center-top-y"></div>
+	<div class="square center-y"></div>
+	<div class="square center-bottom-y"></div>
+	<div class="square right-top-corner-y"></div>
+	<div class="square right-top-y"></div>
+	
+</div>
+
+<div class="letter" id="Z">
+
+	<div class="square left-top-corner-z"></div>
+	<div class="square left-bottom-corner-z"></div>
+	<div class="square center-top-z"></div>
+	<div class="square center-bottom-z"></div>
+	<div class="square right-top-z"></div>
+	<div class="square bottom-center-right-z"></div>
+	<div class="square bottom-right-z"></div>
+
+	
+</div>
+
+<!--numbers-->
+
+<div class="letter" id="one">
+
+	<div class="square left-top-corner-one"></div>
+	<div class="square center-top-one"></div>
+	<div class="square center-top-middle-one"></div>
+	<div class="square center-middle-one"></div>
+	<div class="square center-bottom-middle-one"></div>
+	<div class="square center-bottom-one"></div>
+
+</div>
+
+<div class="letter" id="two">
+
+	<div class="square left-top-corner-two"></div>
+	<div class="square center-top-two"></div>
+	<div class="square right-top-corner-two"></div>
+	<div class="square right-top-two"></div>
+	<div class="square right-top-two"></div>
+	<div class="square center-bottom-two"></div>
+	<div class="square left-bottom-two"></div>
+	<div class="square left-bottom-center-two"></div>
+	<div class="square right-bottom-two"></div>
+
+</div>
+
+<div class="letter" id="three">
+
+	<div class="square left-top-corner-three"></div>
+	<div class="square center-top-three"></div>
+	<div class="square right-top-corner-three"></div>
+	<div class="square right-top-three"></div>
+	<div class="square right-center-three"></div>
+	<div class="square center-three"></div>
+	<div class="square center-bottom-three"></div>
+	<div class="square left-bottom-three"></div>
+
+	
+</div>
+
+<div class="letter" id="four">
+
+	<div class="square left-top-corner-four"></div>
+	<div class="square left-center-four"></div>
+	<div class="square left-bottom-four"></div>
+	<div class="square center-left-four"></div>
+	<div class="square right-top-corner-four"></div>
+	<div class="square right-top-four"></div>
+	<div class="square right-center-four"></div>
+	<div class="square right-bottom-four"></div>
+	<div class="square right-bottom-corner-four"></div>
+
+</div>
+
+<div class="letter" id="five">
+
+	<div class="square left-top-corner-five"></div>
+	<div class="square center-top-five"></div>
+	<div class="square right-top-five"></div>
+	<div class="square left-top-five"></div>
+	<div class="square left-middle-five"></div>
+	<div class="square right-middle-five"></div>
+	<div class="square left-bottom-corner-five"></div>
+	<div class="square left-bottom-five"></div>
+
+	
+
+</div>
+
+<div class="letter" id="six">
+
+	<div class="square center-top-six"></div>
+	<div class="square left-top-corner-six"></div>
+	<div class="square left-top-six"></div>
+	<div class="square left-center-six"></div>
+	<div class="square center-six"></div>
+	<div class="square center-bottom-six"></div>
+	<div class="square right-center-six"></div>
+	
+
+</div>
+
+<div class="letter" id="seven">
+
+	<div class="square left-top-corner-seven"></div>
+	<div class="square top-center-six"></div>
+	<div class="square right-top-seven"></div>
+	<div class="square right-seven"></div>
+	<div class="square center-seven"></div>
+	<div class="square left-seven"></div>
+	<div class="square left-bottom-seven"></div>
+
+</div>
+
+<div class="letter" id="eight">
+
+	<div class="square left-top-corner-eight"></div>
+	<div class="square top-center-eight"></div>
+	<div class="square right-top-corner-eight"></div>
+	<div class="square center-eight"></div>
+	<div class="square left-bottom"></div>
+	<div class="square right-bottom"></div>
+	<div class="square center-bottom"></div>
+	
+</div>
+
+<div class="letter" id="nine">
+
+	<div class="square left-top-corner-nine"></div>
+	<div class="square center-top-nine"></div>
+	<div class="square right-top-corner-nine"></div>
+	<div class="square right-top-nine"></div>
+	<div class="square right-top-center-nine"></div>
+	<div class="square right-bottom-nine"></div>
+	<div class="square left-top-nine"></div>
+	<div class="square center-bottom-nine"></div>	
+
+</div>
+
+<div class="letter" id="zero">
+
+	<div class="square left-top-zero"></div>
+	<div class="square left-middle-zero"></div>
+	<div class="square left-middle-bottom-zero"></div>
+	<div class="square middle-top-zero"></div>
+	<div class="square middle-bottom-zero"></div>
+	<div class="square right-top-zero"></div>
+	<div class="square right-middle-zero"></div>
+	<div class="square right-middle-bottom-zero"></div>
+	
+</div>
+
+<!--punctuation-->
+
+<div class="letter" id="period">
+
+	<div class="square left-top-period"></div>
+	
+</div>
+
+<div class="letter" id="comma">
+
+	<div class="square left-top-comma"></div>
+	<div class="square middle-top-comma"></div>
+	<div class="square middle-bottom-comma"></div>
+
+	
+</div>
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+	
+	
+
+
+
+	
+
+
+
+
+
+ 
+	
+
+	
+
+	
+
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	
+
+
+
+
+
 
 
 </body>
