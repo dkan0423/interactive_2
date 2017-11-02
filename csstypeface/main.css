@@ -19,9 +19,9 @@ body.show-name .letter#D, body.show-name .letter#O, body.show-name .letter#T, bo
 
 body.show-name .letter, body.show-name #pattern  {
 	opacity: 0;
-} 
+}
 
-body.show-name .title,.letter#D,.letter#O,.letter#T,.letter#S {
+body.show-name .title,.test#D,.test#O,.test#T,.test#S {
 	opacity: 1;
 }
 
@@ -47,7 +47,7 @@ body.hide-pattern #pattern  {
 #pattern {
 	width:1400px;
 	position: absolute;
-	z-index: 0;	
+	z-index: 0;
 }
 
 .dot-holder {
@@ -62,11 +62,11 @@ body.hide-pattern #pattern  {
 	width: 40px;
 	height: 40px;
 	margin-right: 10px;
-	margin-bottom:10px;	
-	float: left;	
+	margin-bottom:10px;
+	float: left;
 	display: inline-block;
-	border-radius: 30px; 		
-} 
+	border-radius: 30px;
+}
 
 .dot {
 	background: #58595B;
@@ -112,7 +112,7 @@ body.hide-pattern #pattern  {
 }*/
 
 
-#A 
+#A
 .square {
 	border-radius: 100%;
 	height: 80px;
@@ -204,25 +204,25 @@ body.hide-pattern #pattern  {
     background: #ED7924;
 }
 
-#B 
+#B
 .square {
 	border-radius: 100%;
 	height: 80px;
 	width:80px;
 	position: absolute;
 }
-.top-middle { 
+.top-middle {
 	left:100px;
 	top: 0px;
 	background: #ED7924;
 }
 
-.left-top-b { 
+.left-top-b {
 
 	left:0px;
 	top: 100px;
 	background:pink;
-	
+
 }
 .left-middle {
 	top:200px;
@@ -250,7 +250,7 @@ body.hide-pattern #pattern  {
 .right-middle2 {
 	top:300px;
 	background:pink;
-	
+
 }
 .right-bottom-b {
 	top:300px;
@@ -441,11 +441,11 @@ background: #21996B;
 }
 
 #F
-	
+
 .square {
 	height: 80px;
 	width:80px;
-	border-radius: 100%; 
+	border-radius: 100%;
 	position: absolute;
 }
 
@@ -493,7 +493,7 @@ background: #21996B;
 .square {
 	height: 80px;
 	width:80px;
-	border-radius: 100%; 
+	border-radius: 100%;
 	position: absolute;
 }
 
@@ -546,7 +546,7 @@ background: #21996B;
 }
 
 #H
-	
+
 .square {
 	height: 80px;
 	width:80px;
@@ -619,7 +619,7 @@ background: #21996B;
 }
 
 #I
-	
+
 .square {
 	height: 80px;
 	width:80px;
@@ -659,7 +659,7 @@ background: #21996B;
 }
 
 #J
-	
+
 .square {
 	height: 80px;
 	width:80px;
@@ -703,7 +703,7 @@ background: #21996B;
 }
 
 #K
-	
+
 .square {
 	height: 80px;
 	width:80px;
@@ -765,7 +765,7 @@ background: #21996B;
 }
 
 #L
-	
+
 .square {
 	height: 80px;
 	width:80px;
@@ -896,11 +896,11 @@ background: #21996B;
 }
 
 #N
-	
+
 .square {
 	height: 80px;
 	width:80px;
-	border-radius: 100%; 
+	border-radius: 100%;
 	position: absolute;
 }
 
@@ -982,7 +982,7 @@ background: #21996B;
 .square {
 	height: 80px;
 	width:80px;
-	border-radius: 100%; 
+	border-radius: 100%;
 	position: absolute;
 }
 
@@ -1039,7 +1039,7 @@ background: #21996B;
 .square {
 	height: 80px;
 	width:80px;
-	border-radius: 100%; 
+	border-radius: 100%;
 	position: absolute;
 }
 
@@ -1137,15 +1137,15 @@ background: #21996B;
 	left:300px;
 	top:400px;
 	background: #ED7924;
-	
+
 }
 
 #R
-	
+
 .square {
 	height: 80px;
 	width:80px;
-	border-radius: 100%; 
+	border-radius: 100%;
 	position: absolute;
 }
 
@@ -1206,11 +1206,11 @@ background: #21996B;
 }
 
 #S
-	
+
 .square {
 	height: 80px;
 	width:80px;
-	border-radius: 100%; 
+	border-radius: 100%;
 	position: absolute;
 }
 
@@ -1253,11 +1253,11 @@ background: #21996B;
 }
 
 #T
-	
+
 .square {
 	height: 80px;
 	width:80px;
-	border-radius: 100%; 
+	border-radius: 100%;
 	position: absolute;
 }
 
@@ -1311,7 +1311,7 @@ background: #21996B;
 .square {
 	height: 80px;
 	width:80px;
-	border-radius: 100%; 
+	border-radius: 100%;
 	position: absolute;
 }
 
@@ -1382,11 +1382,11 @@ background: #21996B;
 }
 
 #V
-	
+
 .square {
 	height: 80px;
 	width:80px;
-	border-radius: 100%; 
+	border-radius: 100%;
 	position: absolute;
 }
 
@@ -1452,11 +1452,11 @@ background: #21996B;
 }
 
 #W
-	
+
 .square {
 	height: 80px;
 	width:80px;
-	border-radius: 100%; 
+	border-radius: 100%;
 	position: absolute;
 }
 
@@ -1526,11 +1526,11 @@ background: #21996B;
 }
 
 #X
-	
+
 .square {
 	height: 80px;
 	width:80px;
-	border-radius: 100%; 
+	border-radius: 100%;
 	position: absolute;
 }
 
@@ -1576,11 +1576,11 @@ background: #21996B;
 }
 
 #Y
-	
+
 .square {
 	height: 80px;
 	width:80px;
-	border-radius: 100%; 
+	border-radius: 100%;
 	position: absolute;
 }
 
@@ -1622,11 +1622,11 @@ background: #21996B;
 	left:200px;
 	top:100px;
 	background: pink;
-	
+
 }
 
 #one
-	
+
 .square {
 	height: 80px;
 	width:80px;
@@ -1672,7 +1672,7 @@ background: #21996B;
 }
 
 #two
-	
+
 .square {
 	height: 80px;
 	width:80px;
@@ -1733,7 +1733,7 @@ background: #21996B;
 
 
 #three
-	
+
 .square {
 	height: 80px;
 	width:80px;
@@ -1789,7 +1789,7 @@ background: #21996B;
 }
 
 #four
-	
+
 .square {
 	height: 80px;
 	width:80px;
@@ -1852,7 +1852,7 @@ background: #21996B;
 }
 
 #five
-	
+
 .square {
 	height: 80px;
 	width:80px;
@@ -1910,7 +1910,7 @@ background: #21996B;
 }
 
 #six
-	
+
 .square {
 	height: 80px;
 	width:80px;
@@ -1962,7 +1962,7 @@ background: #21996B;
 }
 
 #seven
-	
+
 .square {
 	height: 80px;
 	width:80px;
@@ -2013,7 +2013,7 @@ background: #21996B;
 }
 
 #eight
-	
+
 .square {
 	height: 80px;
 	width:80px;
@@ -2064,7 +2064,7 @@ background: #21996B;
 }
 
 #nine
-	
+
 .square {
 	height: 80px;
 	width:80px;
@@ -2125,7 +2125,7 @@ background: #21996B;
 .square {
 	height: 80px;
 	width:80px;
-	border-radius: 100%; 
+	border-radius: 100%;
 	position: absolute;
 }
 
@@ -2181,7 +2181,7 @@ background: #21996B;
 .square {
 	height: 80px;
 	width:80px;
-	border-radius: 100%; 
+	border-radius: 100%;
 	position: absolute;
 }
 
@@ -2198,7 +2198,7 @@ background:pink;
 .square {
 	height: 80px;
 	width:80px;
-	border-radius: 100%; 
+	border-radius: 100%;
 	position: absolute;
 
 }
