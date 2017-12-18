@@ -1,0 +1,238 @@
+
+@font-face {
+    font-family: Custom;
+    src: url("CooperBlackStd-Italic.otf");
+}
+
+
+h1 {
+    text-shadow: 3px 2px white;
+}
+
+
+
+h2 {
+    text-shadow: 3px 2px white;
+}
+
+
+
+/*div {
+    text-align: justify left;
+
+}*/
+
+
+
+
+
+
+body {
+
+	background-color: #F9B1A1;
+}
+
+
+* {
+
+	padding: 0px;
+	margin: 0px;
+}
+
+&.insetshadow {
+    color: #202020;
+    background-color: #2d2d2d;
+    letter-spacing: .1em;
+    text-shadow: 
+      -1px -1px 1px #111, 
+      2px 2px 1px #363636;
+  }
+
+p {
+	opacity: .5;
+}
+
+a{
+	text-decoration: none;
+	font-family: Custom;
+	color: black;
+	
+}
+
+
+.title {
+	opacity: 1;
+	position: absolute;
+	top: 104px;
+    left: 89px;
+    font-size: 100px;
+	color: black;
+	background-blend-mode: color-dodge;
+	font-family: 'custom';
+	letter-spacing: -3px;
+	}
+
+.title2 {
+    opacity: 1;
+    text-align:left;
+    position: absolute;
+    top: 118px;
+    right: 38px;
+    font-size: 20px;
+    color:black;
+ /*   background:white;
+    mix-blend-mode: color-dodge;*/
+    font-family: 'custom';
+   
+}
+
+
+.container {
+	width:600px;
+	margin-left:100px;
+}
+
+/*#biography1  {
+	font-family: Custom;
+	src: url("CooperBlackStd-Italic.otf");
+	position: margin-left;
+	margin-top: 850px;
+	margin-left:400px;
+	text-align:center;
+	width:300px;
+	height:300px;
+}
+*/
+
+
+
+/*
+img {
+	width:auto;
+	height: 250px;
+	-webkit-filter: drop-shadow(8px 8px 10px black); 
+    filter: drop-shadow(8px 8px 10px black);
+}*/
+/* hover states for images */
+
+
+
+#dolly img {
+	z-index: 0;
+	width: 350px;
+	height: 350px;
+	position: absolute;
+	/*max-width: 200px;*/
+	/*background-blend-mode: multiply;*/
+	opacity: 0;
+	-webkit-transition: all 1s ease-in-out;
+
+}
+
+
+
+p#dolly img {
+	background-blend-mode:overlay;
+	opacity: 0;
+}
+
+
+p#dolly:hover #image1 {
+	opacity:2;
+}
+
+
+p#dolly:hover #image2 {
+	opacity:0.9;
+}
+
+p#dolly:hover #image3 {
+	opacity:0.7;
+}
+
+p#dolly:hover #image4 {
+	opacity:0.5;
+}
+
+p#dolly:hover #image5 {
+	opacity:0.4;
+}
+
+
+p#dolly:hover #image6 {
+	opacity:0.3;
+
+}
+
+p#dolly:hover #image7 {
+	opacity:0.2;
+
+}	
+
+p#dolly:hover #image8 {
+	opacity:0.1;
+
+
+}	
+
+
+/* each image is given its own transition delay, so they occur in an order when hovered on */
+
+
+
+p#dolly #image1 {
+	top: 280px;
+    left: 100px;
+	-webkit-transition-delay: 0s;
+}
+
+p#dolly #image2 {
+	top: 600px;
+    left: 518px;
+	-webkit-transition-delay: 0.2s;
+}
+
+p#dolly #image3 {
+   left: 933px;
+    top: 280px;
+	-webkit-transition-delay: .4s;
+}
+
+p#dolly #image4 {
+	left: 100px;
+    top: 900px;
+	-webkit-transition-delay: .6s;	
+}
+
+p#dolly #image5 {
+    left: 933px;
+    top: 900px;
+	-webkit-transition-delay: .7s;	
+}
+
+p#dolly #image6 {
+	left: 520px;
+    top: 1300px;
+	-webkit-transition-delay: .8s;	
+}
+p#dolly #image7 {
+	left: 100px;
+	top:1600px;
+	-webkit-transition-delay: .9s;	
+}
+p#dolly #image8 {
+	left: 933px;
+    top: 1600px;
+	-webkit-transition-delay: 1s;	
+}
+
+
+p#dolly #image9 {
+	left: 520px;
+    top: 1900px;
+	margin-bottom: 100px;
+	margin-left:100px;
+}
+
+
+/*

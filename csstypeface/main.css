@@ -1,5 +1,7 @@
 body {
 
+	background:black;
+
 }
 
 * {
@@ -30,6 +32,9 @@ body.show-name .title,.test#D,.test#O,.test#T,.test#S {
 body.hide-pattern #pattern  {
 	opacity: 0;
 }
+
+
+
 
 .title {
 	opacity: 0;
@@ -93,8 +98,8 @@ body.hide-pattern #pattern  {
 	/*transform: blur(20px);*/
 }
 .letter {
-	width: 500px;
-	height: 500px;
+	width: 250px;
+	height: 250px;
 	position: relative;
 	display: inline-block;
 	margin: 50px;
@@ -2220,3 +2225,188 @@ background: pink;
 	left:100px;
 	top:200px;
 }
+
+
+#question
+
+.square {
+	height: 80px;
+	width:80px;
+	border-radius: 100%;
+	position: absolute;
+
+}
+
+.left-top-question{
+
+left:0px;
+top:100px;
+background: pink;
+}
+
+.middle-top-question {
+	left:100px;
+	top:0px;
+	background: #ED7924;
+}
+
+.middle-top-right-question {
+	left:200px;
+	top:100px;
+	background:#ED7924;
+}
+
+.middle-center-right-question {
+	left:200px;
+	top:200px;
+	background:#ED7924;
+}
+
+.middle-center-right-question {
+	left:200px;
+	top:200px;
+	background:#ED7924;
+}
+
+
+.middle-bottom-right-question {
+	left:100px;
+	top:300px;
+	background:#ED7924;
+}
+
+.bottom-question {
+	left:100px;
+	top:500px;
+	background:#ED7924;
+}
+
+.left-top-question{
+
+left:0px;
+top:100px;
+background: pink;
+}
+
+.middle-top-question {
+	left:100px;
+	top:0px;
+	background: #ED7924;
+}
+
+.middle-top-right-question {
+	left:200px;
+	top:100px;
+	background:#ED7924;
+}
+
+.middle-center-right-question {
+	left:200px;
+	top:200px;
+	background:#ED7924;
+}
+
+.middle-center-right-question {
+	left:200px;
+	top:200px;
+	background:#ED7924;
+}
+
+
+.middle-bottom-right-question {
+	left:100px;
+	top:300px;
+	background:#ED7924;
+}
+
+.bottom-question {
+	left:100px;
+	top:500px;
+	background:#ED7924;
+}
+
+#exclamation
+
+.square {
+	height: 80px;
+	width:80px;
+	border-radius: 100%;
+	position: absolute;
+
+}
+
+.top-exclamation{
+
+left:100px;
+top:0px;
+background: pink;
+}
+
+.middle-top-exclamation{
+
+left:100px;
+top:100px;
+background: pink;
+}
+
+.middle-exclamation{
+
+left:100px;
+top:200px;
+background: pink;
+}
+
+.bottom-middle-exclamation{
+
+left:100px;
+top:300px;
+background: pink;
+}
+
+
+.bottom-exclamation{
+
+left:100px;
+top:500px;
+background:#ED7924 ;
+}
+
+#quotation
+
+.square {
+	height: 80px;
+	width:80px;
+	border-radius: 100%;
+	position: absolute;
+
+}
+
+.top-quotation{
+
+left:100px;
+top:0px;
+background: pink;
+}
+
+.middle-top-quotation{
+
+left:100px;
+top:100px;
+background: #ED7924;
+}
+
+.right-top-quotation{
+
+left:300px;
+top:0px;
+background: pink;
+}
+
+.right-middle-top-quotation{
+
+left:300px;
+top:100px;
+background: #ED7924;
+}
+
+

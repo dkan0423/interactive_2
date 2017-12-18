@@ -1,0 +1,182 @@
+
+@font-face {
+    font-family: Custom;
+    src: url("CooperBlackStd-Italic.otf");
+}
+
+* {
+
+	padding: 0px;
+	margin: 20px;
+   
+}
+
+
+body {
+	background-color:#FFF1D0;
+	overflow-y:hidden;
+	/*background-color: #00E5EE;*/
+
+}
+
+
+h1 {
+    text-shadow: 3px 2px white;
+}
+
+img {
+ box-shadow: 0 1px 1px rgba(0,0,0,0.12), 0 1px 1px rgba(0,0,0,0.24);
+ transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+img:hover {
+ box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+
+/* table layout does horizontal alignment */
+
+#works {
+	z-index: 0;
+    overflow: auto;
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+
+}
+
+/* each work occupies 1.2 screen widths, adjust that value to space works */
+
+.work {
+    width: 80vh;
+    height: 100vh;
+    display: table-cell;
+    vertical-align: baseline;
+    text-align: center;
+    padding-top: 0vh;
+    position: relative;
+    z-index: 0;
+}
+
+/* adjust the height to change the images size, change the top margin to move up and down */ 
+
+.work img {
+	vertical-align: baseline;
+	height: 90vh;
+	width: auto;
+	position: relative;
+	z-index: 0;
+    margin-top: 20px;
+
+}
+
+
+#sfmoma {
+	box-shadow: none;
+}
+
+
+.title {
+    opacity: 1;
+    position: absolute;
+    top: 70px;
+    left: 100px;
+    font-size: 92px;
+    color: black;
+    background-blend-mode: color-dodge;
+    font-family: 'custom';
+    letter-spacing: -3px;
+}
+
+.title2 {
+	opacity: 1;
+	margin:20px;
+    position: absolute;
+    text-align: left;
+    top: 200px;
+    left: 100px;
+    font-size: 25px;
+    color: black;
+    background-blend-mode: color-dodge;
+    font-family: 'custom';
+    letter-spacing: -1px;
+}
+
+
+
+.container {
+	width:100vw;
+	min-height: 200vh;
+	/*border: 1px solid red;*/
+}
+
+img {
+	width:300px;
+	height: 300px;
+}
+
+
+#marilyn img {
+
+	max-width: 300px;
+    max-height: 300px;
+    position: absolute;
+   bottom: 40vh;
+    left: 145vw;
+}	
+
+
+
+
+#dolly img {
+
+	max-width: 300px;
+    max-height: 300px;
+    position: absolute;
+    bottom: 40vh;
+    left: 71vw;
+	
+
+}
+
+#elvis img {
+
+	max-width: 300px;
+    max-height: 300px;
+    position: absolute;
+   	 bottom: 7vh;
+    left: 31vw;
+	
+}
+
+#elizabeth img {
+
+	max-width: 300px;
+    max-height: 300px;
+	position: absolute;
+	 bottom: 16vh;
+    left: 109vw;
+}
+
+
+#andy img {
+
+	max-width: 300px;
+    max-height: 300px;
+    position: absolute;
+    bottom: 9vh;
+    left: 180vw;
+
+}	
+
+
+#sfmoma img {
+	width: 120px;
+    height: 60px;
+    position: absolute;
+    bottom: 9vh;
+    left: 6vw;
+}
+	
+
+}
+

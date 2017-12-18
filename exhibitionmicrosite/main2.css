@@ -1,0 +1,178 @@
+@font-face {
+    font-family: Custom;
+    src: url("CooperBlackStd-Italic.otf");
+}
+
+h1 {
+    text-shadow: 3px 2px black;
+}
+
+
+
+
+body {
+
+	background-color: #EC008C;
+	overflow: hidden;
+
+}
+
+
+* {
+
+	padding: 0px;
+	margin: 0px;
+}
+
+a{
+	text-decoration: none;
+	font-family: Custom;
+	color: black;
+	
+}
+
+.title {
+	opacity: 1;
+    position: absolute;
+    top: 49px;
+    left: 350px;
+    font-size: 100px;
+    color: white;
+    font-family: 'custom';
+}
+
+.container {
+	width:1800px;
+	margin-left:100px;
+	
+}
+
+
+img {
+	width:auto;
+	height: 500px;
+	-webkit-filter: drop-shadow(8px 8px 10px black); 
+    filter: drop-shadow(8px 8px 10px black);
+}
+
+#biography {
+
+	font-family: Custom;
+	letter-spacing: 0.5px;
+	color:black;
+	background-blend-mode: screen;
+	src: url("CooperBlackStd-Italic.otf");
+	width:500px;
+	height:600px;
+	margin-left:450px;
+	margin-top: -480px;
+    line-height: 150%;
+}
+}
+
+#andy {
+	height:100vh;
+	overflow:none;
+}
+
+
+
+
+#image1 {
+
+
+	margin-top:200px;
+	margin-left:-70px;
+
+
+}
+
+/*p {
+	opacity: .5;
+}
+
+p#image1 img {
+	opacity: 0;
+}
+
+
+p#image1:hover #biography{
+	opacity:2;
+}
+
+p#image1 #biography {
+	top: 850px;
+    left: 100px
+	-webkit-transition-delay: 0.2s;
+}*/
+
+
+
+/* hover states for images */
+
+
+
+
+/* sliding elements */
+
+
+./*image2{
+	margin-top: 23%;
+	margin-left: 13.35%;
+	position: absolute;
+	z-index: 2;
+
+}
+
+.image3{
+	width: 41.1%;
+	height: 37%;
+	margin-top: 23%;
+	margin-left: 13.35%;
+	position: absolute;
+	box-shadow: 8px 8px 5px #cf6328;
+	z-index: 2;
+
+}
+
+.image4{
+	margin-top: 19%;
+	margin-left: 19.8%;
+	position: absolute;
+	z-index: 5;
+}
+
+.image5{
+	width: 36.1%;
+	height: 70%;
+	margin-top: 19%;
+	margin-left: 19.8%;
+	position: absolute;
+	z-index: 4;
+	box-shadow: 8px 8px 5px #b91d1a;
+}
+
+.image6{
+	width: 6.7%;
+	height: 0;
+	padding-bottom: 6.7%;
+	border-radius: 50%;
+	background-color: #b91d1a;
+	position: absolute;
+	left: 45%;
+	top: 33%;
+	z-index: 6;
+	opacity: 0.5;
+	-webkit-animation-name: greenPulse;
+  	-webkit-animation-duration: 2.5s;
+  	-webkit-animation-iteration-count: infinite;
+  	transition: all 2s ease-in-out;
+}
+
+@-webkit-keyframes greenPulse {
+  from { background-color: #b91d1a; -webkit-box-shadow: 0 0 9px #7F7E7E; }
+  50% { background-color: #F36965; -webkit-box-shadow: 0 0 18px #1CAE6F; }
+  to { background-color: #b91d1a; -webkit-box-shadow: 0 0 9px #7F7E7E; }
+}
+
+*/

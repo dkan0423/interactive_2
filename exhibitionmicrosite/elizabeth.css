@@ -1,0 +1,198 @@
+
+@font-face {
+    font-family: Custom;
+    src: url("CooperBlackStd-Italic.otf");
+}
+
+
+h1 {
+    text-shadow: 3px 2px white;
+}
+
+
+
+/*div {
+    text-align: justify left;
+
+}*/
+
+
+
+
+
+
+body {
+
+	background-color: #FBAE18;
+   
+}
+
+
+* {
+
+	padding: 0px;
+	margin: 0px;
+}
+
+&.insetshadow {
+    color: #202020;
+    background-color: #2d2d2d;
+    letter-spacing: .1em;
+    text-shadow: 
+      -1px -1px 1px #111, 
+      2px 2px 1px #363636;
+  }
+
+p {
+	opacity: .5;
+}
+
+
+.title {
+	opacity: 1;
+	position: absolute;
+	top:80px;
+	left: 150px;
+	font-size: 50px;
+	color: black;
+	background-blend-mode: color-dodge;
+	font-family: 'custom';
+	letter-spacing: -3px;
+	}
+
+
+.title2 {
+    opacity: 1;
+    text-align:right;
+    position: fixed;
+    top: 88px;
+   right: 344px;
+    font-size: 20px;
+    color:white;
+    letter-spacing: 1px;
+    font-family: 'custom';
+   
+}
+
+
+
+a{
+	text-decoration: none;
+	font-family: Custom;
+	color: black;
+
+
+	
+}
+
+.container {
+	width:600px;
+	margin-left:100px;
+}
+
+/*#marilyn img {
+	z-index: 0;
+	width: 200px;
+	height: 200px;
+	float: left;
+	position: absolute;
+	max-width: 200px;
+	background-blend-mode: multiply;
+	-webkit-transition: all 1s ease-in-out;
+
+}*/
+div#eliza:hover .row1 {
+	opacity:0.8;
+	transition: all ease 500ms;
+	-webkit-transition-delay: 0.1s;
+}
+
+
+div#eliza:hover .row2 {
+	opacity:0.7;
+	transition: all ease 500ms;
+	-webkit-transition-delay: 0.1s;
+}
+
+div#eliza:hover .row3 {
+	opacity:0.6;
+	transition: all ease 500ms;
+	-webkit-transition-delay: 0.1s;
+}
+
+div#eliza:hover .row4{
+	opacity:0.5;
+	transition: all ease 500ms;
+	-webkit-transition-delay: 0.2s;
+}
+
+div#eliza:hover .row5 {
+	opacity:0.4;
+	transition: all ease 500ms;
+	-webkit-transition-delay: 0.3s;
+}
+
+
+div#eliza:hover .row6 {
+	opacity:0.3;
+	transition: all ease 500ms;
+	-webkit-transition-delay: 0.4s;
+
+}
+
+div#eliza:hover .row7 {
+	opacity:0.2;
+	transition: all ease 500ms;
+	-webkit-transition-delay: 0.5s;
+
+
+}	
+
+div#eliza:hover .row8 {
+	opacity:0.1;
+	transition: all ease 500ms;
+	-webkit-transition-delay: 0.6s;
+
+
+}	
+
+
+#eliza {
+	width: 1200px;
+}
+
+/*#eliza .row1 img {
+	mix-blend-mode: overlay;
+	opacity: 1;
+}
+
+#eliza .row2 img {
+	opacity: .6;
+}
+
+#eliza .row3 img {
+	opacity: .3;
+}
+
+#eliza .row4 img {
+	opacity: .1;
+}
+
+#eliza .row5 img {
+	opacity: .3;
+}
+
+#eliza .row6 img {
+	opacity: .2;
+}
+
+#eliza.row7 img {
+	opacity: .1;
+}
+
+
+
+*/
+
+
+

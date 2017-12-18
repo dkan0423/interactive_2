@@ -1,0 +1,218 @@
+
+@font-face {
+    font-family: Custom;
+    src: url("CooperBlackStd-Italic.otf");
+}
+
+
+h1 {
+    text-shadow: 3px 2px black;
+}
+
+
+h2 {
+    text-shadow: 3px 2px white;
+}
+
+
+
+a{
+	text-decoration: none;
+	font-family: Custom;
+	color: black;
+	
+}
+
+
+
+
+body {
+
+	background-color: #F3EA00;
+}
+
+
+* {
+
+	padding: 22px;
+	margin: 0px;
+}
+
+&.insetshadow {
+    color: #202020;
+    background-color: #2d2d2d;
+    letter-spacing: .1em;
+    text-shadow: 
+      -1px -1px 1px #111, 
+      2px 2px 1px #363636;
+  }
+
+p {
+	opacity: .5;
+}
+
+
+.title {
+    opacity: 1;
+    position: absolute;
+    top: 24px;
+    left: 112px;
+    font-size: 50px;
+    color:white;
+    background-blend-mode: MULTIPLY;
+    font-family: 'custom';
+    letter-spacing: -1px;
+}
+
+.title2 {
+    opacity: 1;
+    text-align:right;
+    position: fixed;
+    top: 24px;
+    right: 191px;
+    font-size: 20px;
+    color:black;
+ /*   background:white;
+    mix-blend-mode: color-dodge;*/
+    font-family: 'custom';
+   
+}
+
+
+
+.container {
+	width:800px;
+
+}
+
+
+/*
+img {
+	width:auto;
+	height: 250px;
+	-webkit-filter: drop-shadow(8px 8px 10px black); 
+    filter: drop-shadow(8px 8px 10px black);
+}*/
+/* hover states for images */
+
+#marilyn img {
+
+	z-index: 0;
+	width: 200px;
+	height: 200px;
+	float: left;
+/*	position: absolute;*/
+	/*max-width: 200px;*/
+	background-blend-mode: multiply;
+	-webkit-transition: all 1s ease-in-out;
+
+}
+
+div #marilyn:hover .row1 {
+	opacity:0.8;
+	transition: all ease 500ms;
+	-webkit-transition-delay: 0.2s;
+}
+
+div #marilyn:hover .row2 {
+	opacity:0.7;
+	transition: all ease 500ms;
+	-webkit-transition-delay: 0.2s;
+}
+
+div #marilyn:hover .row3 {
+	opacity:0.5;
+	transition: all ease 500ms;
+	-webkit-transition-delay: 0.3s;
+}
+
+div #marilyn:hover .row4 {
+	opacity:0.4;
+	transition: all ease 500ms;
+	-webkit-transition-delay: 0.4s;
+}
+
+
+div#marilyn:hover .row5 {
+	opacity:0.3;
+	transition: all ease 500ms;
+	-webkit-transition-delay: 0.5s;
+
+}
+
+div#marilyn:hover .row6 {
+	opacity:0.2;
+	transition: all ease 500ms;
+	-webkit-transition-delay: 0.6s;
+
+}	
+
+div#marilyn:hover .row7 {
+	opacity:0.1;
+	transition: all ease 500ms;
+	-webkit-transition-delay: 0.8s;
+
+
+}	
+
+
+#marilyn {
+	width: 1200px;
+}
+
+#marilyn .row1 img {
+	opacity: 1;
+}
+
+#marilyn .row2 img {
+	opacity: .8;
+}
+
+#marilyn .row3 img {
+	opacity: .6;
+}
+
+#marilyn .row4 img {
+	opacity: .4;
+}
+
+#marilyn .row5 img {
+	opacity: .3;
+}
+
+#marilyn .row6 img {
+	opacity: .2;
+}
+
+#marilyn .row7 img {
+	opacity: .1;
+}
+
+
+/*#biography1  {
+
+
+	text-align: right;
+	font-family: Custom;
+	src: url("CooperBlackStd-Italic.otf");
+	font-size:18px;
+	top: 60px;
+    right: 150px;
+	width:300px;
+	height:300px;
+}
+*/
+
+
+img {
+	width: 200px;
+	height: auto;
+	position: center;
+}
+/*
+.container {
+	width: 100vw;
+}
+
+*/
+

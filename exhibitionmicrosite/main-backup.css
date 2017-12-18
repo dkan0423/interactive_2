@@ -1,0 +1,319 @@
+
+@font-face {
+    font-family: Custom;
+    src: url("CooperBlackStd-Italic.otf");
+}
+
+
+h1 {
+    text-shadow: 3px 2px white;
+}
+
+/*div {
+    text-align: justify left;
+
+}*/
+
+
+
+
+
+
+body {
+
+	background-color: #00E5EE;
+    background-image: url("marilyn_background.jpg");
+}
+
+
+* {
+
+	padding: 0px;
+	margin: 0px;
+}
+
+&.insetshadow {
+    color: #202020;
+    background-color: #2d2d2d;
+    letter-spacing: .1em;
+    text-shadow: 
+      -1px -1px 1px #111, 
+      2px 2px 1px #363636;
+  }
+
+p {
+	opacity: .5;
+}
+
+
+.title {
+	opacity: 1;
+	position: absolute;
+	top:1000px;
+	left: 350px;
+	font-size: 175px;
+	color: black;
+	background-blend-mode: color-dodge;
+	font-family: 'custom';
+	letter-spacing: -3px;
+	}
+
+
+.container {
+	width:600px;
+	margin-left:100px;
+}
+
+#biography1  {
+	font-family: Custom;
+	src: url("CooperBlackStd-Italic.otf");
+	position: margin-left;
+	margin-top: 850px;
+	margin-left:400px;
+	text-align:center;
+	width:300px;
+	height:300px;
+}
+
+#biography2 {
+
+	font-family: Custom;
+	src: url("CooperBlackStd-Italic.otf");
+	position: margin-left;
+	text-align:left;
+	margin-top: 700px;
+	width:300px;
+	height:300px;
+
+}
+
+#biography3 {
+
+	font-family: Custom;
+	src: url("CooperBlackStd-Italic.otf");
+	position: margin-left;
+	text-align:right;
+	margin-top: -80px;
+	margin-left:350px;
+	width: 300px;
+	height:300px;
+
+}
+
+#biography4 {
+
+	font-family: Custom;
+	src: url("CooperBlackStd-Italic.otf");
+	position: margin-left;
+	margin-top: -550px;
+	margin-left:800px;
+	width:300px;
+	height:300px;
+
+}
+
+
+#biography5 {
+
+	font-family: Custom;
+	src: url("CooperBlackStd-Italic.otf");
+	position: margin-left;
+	margin-top: -600px;
+	margin-left:400px;
+	width:300px;
+	height:300px;
+
+}
+
+
+/*
+img {
+	width:auto;
+	height: 250px;
+	-webkit-filter: drop-shadow(8px 8px 10px black); 
+    filter: drop-shadow(8px 8px 10px black);
+}*/
+/* hover states for images */
+
+#marilyn img {
+	z-index: 0;
+	width: 350px;
+	height: 350px;
+	position: absolute;
+	/*max-width: 200px;*/
+	blend-mode: multiply;
+	opacity: 0;
+	-webkit-transition: all 1s ease-in-out;
+
+}
+
+
+
+p#marilyn img {
+	opacity: 0;
+}
+
+p#marilyn #image1 {
+	opacity: 1;
+}
+
+
+p#marilyn:hover #image1 {
+	opacity:2;
+}
+
+
+p#marilyn:hover #image2 {
+	opacity:0.9;
+}
+
+p#marilyn:hover #image3 {
+	opacity:0.7;
+}
+
+p#marilyn:hover #image4 {
+	opacity:0.5;
+}
+
+p#marilyn:hover #image5 {
+	opacity:0.4;
+}
+
+
+p#marilyn:hover #image6 {
+	opacity:0.3;
+
+}
+
+p#marilyn:hover #image7 {
+	opacity:0.2;
+
+}	
+
+p#marilyn:hover #image8 {
+	opacity:0.1;
+
+
+}	
+
+
+/* each image is given its own transition delay, so they occur in an order when hovered on */
+
+
+
+p#marilyn #image1 {
+	top: 850px;
+    left: 100px
+	-webkit-transition-delay: 0s;
+}
+
+p#marilyn #image2 {
+	top: 1100px;
+    left: 520px;
+	-webkit-transition-delay: 0.2s;
+}
+
+p#marilyn #image3 {
+    left: 900px;
+    top: 850px;
+	-webkit-transition-delay: .4s;
+}
+
+p#marilyn #image4 {
+	left: 100px;
+    top: 1350px;
+	-webkit-transition-delay: .6s;	
+}
+
+p#marilyn #image5 {
+    left: 900px;
+    top: 1350px;
+	-webkit-transition-delay: .7s;	
+}
+
+p#marilyn #image6 {
+	left: 520px;
+    top: 1700px;
+	-webkit-transition-delay: .8s;	
+}
+p#marilyn #image7 {
+	left: 100px;
+    top: 2000px;
+	-webkit-transition-delay: .9s;	
+}
+p#marilyn #image8 {
+	left: 900px;
+    top: 2000px;
+	-webkit-transition-delay: 1s;	
+}
+
+
+#image9 {
+	margin-bottom: 100px;
+	margin-left:100px;
+}
+
+
+/* sliding elements */
+
+
+./*image-g{
+	margin-top: 23%;
+	margin-left: 13.35%;
+	position: absolute;
+	z-index: 2;
+
+}
+
+.image-g-s{
+	width: 41.1%;
+	height: 37%;
+	margin-top: 23%;
+	margin-left: 13.35%;
+	position: absolute;
+	box-shadow: 8px 8px 5px #cf6328;
+	z-index: 2;
+
+}
+
+.image-o{
+	margin-top: 19%;
+	margin-left: 19.8%;
+	position: absolute;
+	z-index: 5;
+}
+
+.image-o-s{
+	width: 36.1%;
+	height: 70%;
+	margin-top: 19%;
+	margin-left: 19.8%;
+	position: absolute;
+	z-index: 4;
+	box-shadow: 8px 8px 5px #b91d1a;
+}
+
+.red{
+	width: 6.7%;
+	height: 0;
+	padding-bottom: 6.7%;
+	border-radius: 50%;
+	background-color: #b91d1a;
+	position: absolute;
+	left: 45%;
+	top: 33%;
+	z-index: 6;
+	opacity: 0.5;
+	-webkit-animation-name: greenPulse;
+  	-webkit-animation-duration: 2.5s;
+  	-webkit-animation-iteration-count: infinite;
+  	transition: all 2s ease-in-out;
+}
+
+@-webkit-keyframes greenPulse {
+  from { background-color: #b91d1a; -webkit-box-shadow: 0 0 9px #7F7E7E; }
+  50% { background-color: #F36965; -webkit-box-shadow: 0 0 18px #1CAE6F; }
+  to { background-color: #b91d1a; -webkit-box-shadow: 0 0 9px #7F7E7E; }
+}
+
+*/

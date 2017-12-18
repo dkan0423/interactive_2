@@ -42,9 +42,24 @@ $(document).ready(function(){
 
     }   
 
+    var n = 1;
+
     $('body').click(function(){
-    	$('body').toggleClass('show-name');
+
+    	if(n == 1) {
+    		$('body').addClass('hide-pattern');
+    	} else if (n == 2){
+    		$('body').removeClass();
+    		$('body').toggleClass('show-name');
+    	}
+    	n++;
+    	if(n > 2){
+    		n = 1;
+    	}
+
     });
+
+ 
 
     $('#hide-pattern').click(function(){
     	$('body').toggleClass('hide-pattern');

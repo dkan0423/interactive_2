@@ -1,0 +1,224 @@
+
+@font-face {
+    font-family: Custom;
+    src: url("CooperBlackStd-Italic.otf");
+}
+
+
+h1 {
+    text-shadow: 3px 2px white;
+}
+
+/*div {
+    text-align: justify left;
+
+}*/
+
+
+
+
+
+
+body {
+
+	background-color: #D02027;
+   
+}
+
+
+* {
+
+	padding: 0px;
+	margin: 0px;
+}
+
+&.insetshadow {
+    color: #202020;
+    background-color: #2d2d2d;
+    letter-spacing: .1em;
+    text-shadow: 
+      -1px -1px 1px #111, 
+      2px 2px 1px #363636;
+  }
+
+p {
+	opacity: .5;
+}
+
+
+.title {
+	opacity: 1;
+	position: absolute;
+	top:200px;
+	left: 150px;
+	font-size: 50px;
+	color: black;
+	font-family: 'custom';
+	letter-spacing: -3px;
+	}
+
+
+	.title2 {
+    opacity: 1;
+    text-align: right;
+    position: absolute;
+    top: 180px;
+   	left: 523px;
+    font-size: 15px;
+    color: black;
+    font-family: 'custom';
+    margin-bottom: 200px;
+   
+}
+
+
+
+.container {
+	width:600px;
+	margin-left:100px;
+}
+
+/*#biography1  {
+	font-family: Custom;
+	src: url("CooperBlackStd-Italic.otf");
+	position: margin-left;
+	margin-top: 850px;
+	margin-left:400px;
+	text-align:center;
+	width:300px;
+	height:300px;
+}
+*/
+
+
+
+/*
+img {
+	width:auto;
+	height: 250px;
+	-webkit-filter: drop-shadow(8px 8px 10px black); 
+    filter: drop-shadow(8px 8px 10px black);
+}*/
+/* hover states for images */
+
+#elvis img {
+	z-index: 0;
+	width: 800px;
+	height: 800px;
+	position: absolute;
+	/*max-width: 200px;*/
+	background-blend-mode: multiply;
+	opacity: 0;
+	-webkit-transition: all 1s ease-in-out;
+
+}
+
+
+a{
+	text-decoration: none;
+	font-family: Custom;
+	color: black;
+	
+}
+
+
+p#elvis img {
+	opacity: 0;
+}
+
+
+/*p#elvis:hover #image1 {
+	opacity:2;
+}
+*/
+
+p#elvis #image2 {
+	opacity:1;
+}
+
+p#elvis:hover #image3 {
+	opacity:0.7;
+}
+
+p#elvis:hover #image4 {
+	opacity:0.5;
+}
+
+p#elvis:hover #image5 {
+	opacity:0.4;
+}
+
+
+p#elvis:hover #image6 {
+	opacity:0.3;
+
+}
+
+p#elvis:hover #image7 {
+	opacity:0.2;
+
+}	
+
+p#elvis:hover #image8 {
+	opacity:0.1;
+
+
+}	
+
+
+ each image is given its own transition delay, so they occur in an order when hovered on 
+
+
+
+p#elvis #image1 {
+	top: 100px;
+    left: -137px;
+	-webkit-transition-delay: 0s;
+}
+
+p#elvis #image2 {
+	top: 174px;
+    left: -230px;
+	-webkit-transition-delay: 0.2s;
+}
+
+p#elvis #image3 {
+    top: 300px;
+    left: -230px;
+	-webkit-transition-delay: .4s;
+}
+
+p#elvis #image4 {
+	top: 400px;
+    left: -230px;
+	-webkit-transition-delay: .6s;	
+}
+
+p#elvis #image5 {
+    top: 500px;
+    left: -230px;
+	-webkit-transition-delay: .7s;	
+}
+
+p#elvis #image6 {
+	top: 600px;
+    left: -230px;
+	-webkit-transition-delay: .8s;	
+}
+p#elvis #image7 {
+	top: 700px;
+    left: -230px;
+	-webkit-transition-delay: .9s;	
+}
+p#elvis #image8 {
+	top: 800px;
+    left: -230px;
+	-webkit-transition-delay: 1s;	
+}
+
+
+
+
+}
+
+
